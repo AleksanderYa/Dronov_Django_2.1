@@ -1,0 +1,19 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+django = "==2.1"
+django-simple-captcha = "*"
+pip = "*"
+django-precise-bbcode = "*"
+django-bootstrap4 = "*"
+pillow = "*"
+easy-thumbnails = "*"
+python-social-auth = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.6"
